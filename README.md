@@ -5,12 +5,6 @@
 
 Request | Description
 ------------ | -------------
-GET /employee | Gets All Employees in the embeeded h2 database url: jdbc:h2:mem:testdb
-POST /employee 
-Request body
--String firstname required
--String lastname required
--String email required
- | Content in the second column
-
+GET /employee | Gets All Employees in the embeeded H2 database url: jdbc:h2:mem:testdb
+POST /employee <br> Request body <br> -String firstname required <br> -String lastname required <br>-String email required | Add employee to H2 database
 
