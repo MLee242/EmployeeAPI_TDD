@@ -1,10 +1,12 @@
-# Employe API using TDD
-## Employe RESTful Webservice built using Spring Boot with TDD
+# Employee API using TDD
+## Employee RESTful Webrvice built using Spring Boot with TDD deployed through Heroku
 
 Using **Code Mocks(Mockito Framework), JUnit 5 Testing, Integration test**
 
+**Base URL**: `https://shielded-anchorage-34576.herokuapp.com/employees`
+
 Request | Description
 ------------ | -------------
-**GET** `/employee`  | Gets All Employees in the embeeded H2 database url: <br> jdbc:h2:mem:testdb
-**POST** `/employee` <br> *Requestbody:* <br> • `String firstname` required <br> • `String lastname` required <br> • `String email` required | Add employee to H2 database
+**GET** `/employee`  | Gets All Employees in the embedded H2 database url: <br> jdbc:h2:mem:testdb
+**POST** `/employee` <br> *Requestbody (JSON/XML):* <br> • `String firstName` required <br> • `String lastName` required <br> • `String email` required | Add employee to H2 database
 
