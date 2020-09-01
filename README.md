@@ -3,7 +3,7 @@
 
 Using **Code Mocks(Mockito Framework), JUnit 5 Testing, Integration test**
 
-**Base URL**: `https://shielded-anchorage-34576.herokuapp.com/employees`
+**Base URL**: `https://shielded-anchorage-34576.herokuapp.com/`
 
 Request | Description
 ------------ | -------------
